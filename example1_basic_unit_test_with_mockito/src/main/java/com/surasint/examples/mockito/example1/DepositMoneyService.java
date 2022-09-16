@@ -6,6 +6,7 @@ package com.surasint.examples.mockito.example1;
 public class DepositMoneyService {
 
     public final void deposit(String toAccount, double amount){
-        System.out.println("do actual deposit_change something and push to master");
+        System.out.println("do actual deposit");
+		 System.out.println("do actual deposit_change something and push to master");
     }
 }
